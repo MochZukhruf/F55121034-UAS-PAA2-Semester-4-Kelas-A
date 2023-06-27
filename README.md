@@ -7,24 +7,24 @@ NIM : F55121034
 Kelas A 
 
 No. 1
-Analisis Algoritma Bubble Sort 
+- Analisis Algoritma Bubble Sort 
 Algoritma Bubble Sort memiliki kompleksitas waktu rata-rata O(n^2), di mana n adalah jumlah elemen dalam array. Pada setiap iterasi, algoritma melakukan perbandingan dan penukaran pada elemen-elemen adjacent. Jika array terurut secara terbalik, maka algoritma akan memerlukan n iterasi untuk mengurutkan array tersebut. Pada kasus terbaik, di mana array sudah terurut secara ascending, algoritma akan memiliki kompleksitas waktu O(n), namun pada umumnya kompleksitasnya O(n^2), algoritma ini memiliki kelebihan yaitu implementasi yang sederhana dan mudah dipahami dan Cocok digunakan pada kasus-kasus di mana jumlah elemen yang diurutkan relatif kecil namun juga memiliki kekurangan yaitu memiliki performa yang relatif buruk dibandingkan dengan algoritma pengurutan lainnya, terutama pada kasus-kasus dengan jumlah elemen yang besar. Algoritma ini cenderung lambat karena memerlukan banyak iterasi dan pertukaran elemen.
-- Worst Case 
+1. Worst Case 
 Worst case terjadi ketika array dalam keadaan terbalik secara terurut. Misalnya, jika array yang diberikan sudah dalam keadaan terurut secara menurun, Bubble Sort akan melakukan penukaran elemen pada setiap iterasi di dalam nested loop. Dalam hal ini, kompleksitas waktu Bubble Sort adalah O(n^2), di mana n adalah jumlah elemen dalam array.
-- Best Case
+2. Best Case
 Best case terjadi ketika array sudah dalam keadaan terurut secara menaik. Dalam hal ini, Bubble Sort akan melewati iterasi kedua dalam nested loop tanpa melakukan penukaran apapun. Kompleksitas waktu Bubble Sort pada best case adalah O(n), di mana n adalah jumlah elemen dalam array.
-- Average Case
+3. Average Case
 Average case dari Bubble Sort adalah O(n^2), di mana n adalah jumlah elemen dalam array. Ini terjadi karena dalam kasus rata-rata, Bubble Sort akan melakukan beberapa penukaran elemen pada setiap iterasi di dalam nested loop.
 
 Analisis Algoritma Insertion Sort
 Insertion Sort adalah algoritma pengurutan yang bekerja dengan membagi array menjadi dua bagian: bagian terurut dan bagian belum terurut. Pada setiap iterasi, algoritma memilih elemen dari bagian belum terurut dan memasukkannya ke tempat yang tepat dalam bagian terurut algoritma ini memiliki kelebihan implementasi yang sederhana dan mudah dipahami. Lebih cepat daripada Bubble Sort dalam beberapa kasus tergantung pada data yang diurutkan. Cocok digunakan pada kasus-kasus di mana jumlah elemen yang diurutkan relatif kecil atau array sudah hampir terurut dan juga kekurangan yaitu memiliki performa yang buruk pada kasus-kasus dengan jumlah elemen yang besar. Algoritma ini memerlukan banyak perpindahan elemen saat memasukkan elemen ke dalam bagian terurut.
-- Worst Case 
+1. Worst Case 
 Worst case terjadi ketika array dalam keadaan terbalik secara terurut, seperti pada Bubble Sort. Dalam hal ini, kompleksitas waktu Insertion Sort juga adalah O(n^2), di mana n adalah jumlah elemen dalam array.
-- Best Case
+2. Best Case
 Best case terjadi ketika array sudah dalam keadaan terurut secara menaik. Dalam hal ini, Insertion Sort hanya perlu membandingkan setiap elemen dengan elemen sebelumnya tanpa perlu melakukan penukaran. Kompleksitas waktu Insertion Sort pada best case adalah O(n), di mana n adalah jumlah elemen dalam array.
-- Average Case
+3. Average Case
 Average case dari Insertion Sort juga adalah O(n^2), di mana n adalah jumlah elemen dalam array. Hal ini terjadi karena dalam kasus rata-rata, Insertion Sort akan melakukan beberapa pergeseran elemen pada setiap iterasi while loop di dalam for loop.
-= Jadi dapat disimpulkan bahwa algoritma bubble sort dan insertion sort dimana insertion Sort memiliki kompleksitas waktu terbaik (best case) O(n), ketika array yang diurutkan sudah dalam keadaan terurut secara menaik. Namun, kompleksitas waktu terburuk (worst case) dan rata-rata (average case) Insertion Sort adalah O(n^2), di mana n adalah jumlah elemen dalam array dan juga Bubble Sort memiliki kompleksitas waktu terbaik (best case), terburuk (worst case), dan rata-rata (average case) yang sama, yaitu O(n^2), di mana n adalah jumlah elemen dalam array, Kedua algoritma, Insertion Sort dan Bubble Sort, tidak memerlukan ruang tambahan yang besar dan dapat diimplementasikan dengan menggunakan ruang konstan (O(1)) namun juga dapat diingat jika ingin mengurutkan array dengan jumlah elemen yang besar, ada algoritma pengurutan lain yang lebih efisien, seperti Merge Sort atau Quick Sort.
+- Jadi dapat disimpulkan bahwa algoritma bubble sort dan insertion sort dimana insertion Sort memiliki kompleksitas waktu terbaik (best case) O(n), ketika array yang diurutkan sudah dalam keadaan terurut secara menaik. Namun, kompleksitas waktu terburuk (worst case) dan rata-rata (average case) Insertion Sort adalah O(n^2), di mana n adalah jumlah elemen dalam array dan juga Bubble Sort memiliki kompleksitas waktu terbaik (best case), terburuk (worst case), dan rata-rata (average case) yang sama, yaitu O(n^2), di mana n adalah jumlah elemen dalam array, Kedua algoritma, Insertion Sort dan Bubble Sort, tidak memerlukan ruang tambahan yang besar dan dapat diimplementasikan dengan menggunakan ruang konstan (O(1)) namun juga dapat diingat jika ingin mengurutkan array dengan jumlah elemen yang besar, ada algoritma pengurutan lain yang lebih efisien, seperti Merge Sort atau Quick Sort.
 
 No.2
 Analisis Algoritma TSP dan Dijkstra
